@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+    <div class="container">
+        <h1 id="headline">Countdown to next Lesson</h1>
+        <div id="countdown">
+            <div>
+                <div class="countdown-container">
+                    <span id="days"></span>
+                    days 
+                </div>
+                <div class="countdown-container">
+                    <span id="hours"></span>
+                    hours
+                </div>
+                <div class="countdown-container">
+                    <span id="minutes"></span>
+                    minutes
+                </div>
+                <div class="countdown-container">
+                    <span id="seconds"></span>
+                    seconds
+                </div>
+            </div>
+        </div>
+        <div id="content" class="timer-done hidden">
+            <img src="./img/HTML.png" alt="">
+            <img src="./img/CSS.png" alt="">
+            <img src="./img/JS.png" alt="">
+        </div>
+    </div>
     <script src="./js/script.js"></script>
 </body>
 </html>
